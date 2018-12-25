@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:layout_editor_absoluteY="25dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="296dp"
+        android:layout_height="46dp"
+        android:text="Contact : 8859956117"
+        android:textAlignment="center"
+        android:textColor="#ffd700"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="261dp"
+        android:layout_height="105dp"
+        android:text="Harsh Jain"
+        android:textAlignment="center"
+        android:textColor="#ffd700"
+        android:textSize="45dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="204dp"
+        app:srcCompat="@drawable/harsh"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Employee"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="489dp" />
+</android.support.constraint.ConstraintLayout>
